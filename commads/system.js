@@ -265,7 +265,7 @@ cmd({
 ͲᎻᎪΝᏦՏ ҒϴᎡ ႮՏᏆΝᏀ ՏϴΝᏆᏟ-ᎷᎠ...🌵`;
             let aliveMessage = {
                 image: {
-                    url: await botpic(),
+                    url: 'https://i.ibb.co/2n3DC0b/Sonic.jpg'(),
                 },
                 caption: alivtxt,
                 footer: tlang().footer,

@@ -208,7 +208,7 @@ cmd({
             pattern: "ban",
             category: "owner",
             filename: __filename,
-            desc: "Bans user from using bot."
+            desc: "Band user from using bot."
         },
         async(Void, citel, text,{ isCreator}) => {
             if (!isCreator) return citel.reply(tlang().owner)
@@ -242,20 +242,20 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*THIS BOT CRAETED BY KALINDU*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_This is  ${tlang().title}._
+_IAM SONIC-MD_
 ${alivemessage}
 
-*Version:-* _0.0.7_
+*Version:-* _0.0.1_
 *Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
+*Owner:-* _KALINDU_
+*OWNER NUMBER:-* _0758179948_
 
 _Type ${prefix}menu for my command list._
 
-_Powered by ${Config.ownername}_
+_POWERED BY KALINDU}_
 `;
             let aliveMessage = {
                 image: {

@@ -245,18 +245,24 @@ cmd({
             let alivemessage = Config.ALIVE_MESSAGE || `*THIS BOT CRAETED BY KALINDU*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_IAM SONIC-MD_
-${alivemessage}
 
-*Version:-* _0.0.1_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _KALINDU_
-*OWNER NUMBER:-* _0758179948_
+▬▬▬▬▬▬▬▬▬▬▬▬
 
-_Type ${prefix}menu for my command list._
+       💚‿ʜᴇʟʟᴏᴡ‿❤️
+ 
+► ɪ'ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ...🦸‍♂️
 
-_POWERED BY KALINDU}_
-`;
+► ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱᴏɴɪᴄ-ᴍᴅ ᴡᴀ ʙᴏᴛ...🤖
+
+► ᴄʀᴀᴇᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ...💗
+
+► ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ...💃
+
+► ᴛʏᴘᴇ .menu ᴛᴏ ɢᴇᴛ ᴍʏ ꜰᴜʟʟ ᴄᴏᴍᴍᴀᴍᴅ ʟɪꜱᴛ...🦚 
+
+▬▬▬▬▬▬▬▬▬▬▬▬
+
+ͲᎻᎪΝᏦՏ ҒϴᎡ ႮՏᏆΝᏀ ՏϴΝᏆᏟ-ᎷᎠ...🌵`;
             let aliveMessage = {
                 image: {
                     url: await botpic(),

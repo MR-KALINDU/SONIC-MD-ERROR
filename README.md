@@ -5,3 +5,7 @@
   <a href="https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5">
     <img alt=Support height="300" src="https://telegra.ph/file/9b152f452d62d0f5a206a.jpg">
    
+## ```HEROKU DEPLOYMENT```
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KALINDU-LK/SONIC-MD)
+---------

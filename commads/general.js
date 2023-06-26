@@ -97,11 +97,11 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/KALINDU-LK/SONIC-MD')
         let cap = `Hey ${citel.pushName}\n
-GITHUB LINK; https://github.com/KALINDU-LK/SONIC-MD
-OWNER ; 0758179948
-CREATE YOUR OWN SONIC-MD FAST...`
+GITHUB LINK; https://github.com/KALINDU-LK/SONIC-MD ☄
+OWNER ; 0758179948 ❤️
+CREATE YOUR OWN SONIC-MD FAST... 🦚`
         let buttonMessaged = {
             image: { url:'https://telegra.ph/file/9b152f452d62d0f5a206a.jpg'() },
             caption: cap,
@@ -109,7 +109,7 @@ CREATE YOUR OWN SONIC-MD FAST...`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "SONIC-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -147,7 +147,7 @@ cmd({
 `;
         let buttonMessaged = {
             image: {
-                url: await botpic(),
+                url: 'https://telegra.ph/file/9b152f452d62d0f5a206a.jpg'(),
             },
             caption: ter,
             footer: tlang().footer,

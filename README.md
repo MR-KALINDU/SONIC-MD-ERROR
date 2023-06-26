@@ -4,6 +4,8 @@
 <p align="center">  
   <a href="https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5">
     <img alt=Support height="300" src="https://telegra.ph/file/9b152f452d62d0f5a206a.jpg">
+
+  ●. **[SCAN QR CODE](https://citel-x.herokuapp.com/session)**
    
 ## ```HEROKU DEPLOYMENT```
 

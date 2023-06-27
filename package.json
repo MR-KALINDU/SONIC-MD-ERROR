@@ -1,5 +1,5 @@
 {
-               "name": "sonic-md",
+               "name": "SONIC-MD",
                "version": "0.0.7",
                "description": "Multi device whatsapp bot by Kalindu.",
                "main": "lib/client.js",
@@ -11,7 +11,7 @@
                 },
                "author": "KALINDU",
               "dependencies": {
-                       "@whiskeysockets/baileys": "git+https://github.com/KALINDU-LK/baileys", 
+                       "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
@@ -74,5 +74,4 @@
                  "url": "https://github.com/KALINDU-LK/SONIC-MD/issues"
                   },
                  "homepage": "https://github.com/KALINDU-LK/SONIC-MD#readme"
-                 
-}
+                  }

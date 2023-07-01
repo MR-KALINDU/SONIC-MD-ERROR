@@ -79,7 +79,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",
-     "value": "SONIC-MD"
+     "value": "MrKalindu"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",

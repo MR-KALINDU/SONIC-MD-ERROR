@@ -7,67 +7,63 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-  "description": "Name of Bot Owner",
+  "description": "බොට්ගේ owner ගේ නම මෙතනට දාන්න...😊",
       "value": "KALINDU"
   },
   "ALIVE_MESSAGE": {
-    "description": "Alive message for bot",
+    "description": "බොට්ගේ alive මැසේජ් එක මෙතනට දාන්න...😊",
      "required" :false
     },
     "AUTO_STATUS_SAVER": {
-      "description": "Automatically saves status of every person and sends in log number.",
+      "description": "Status ඔටෝ ඔයාගේ gallery එකට save වෙන්න ඕනෙ true දෙන්න. නැත්නම් false දෙන්න...😊",
        "required" :false
       },
     "HEROKU_API_KEY": {
-    "description": "Put HEROKU API KEY",
+    "description": "Heroku api key එක මෙතනට දෙන්න...😊",
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "Put HEROKU APP NAME same as above.",
+    "description": "ඔයා දුන්න heroku ඇප් name එක මෙතනට දෙන්න...😊",
      "required" :false
     },
    "THUMB_IMAGE": {
-    "description": "THUMBNAIL for bot.",
+    "description": "බොට්ගේ alive ලෝගෝ එකේ ලින්ක් එක මෙතනට දෙන්න...😊 .",
      "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
     },
     "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+    "description": "කුණුහරුප කියන අය අයින් කරන්න true දෙන්න. නැත්නම් false දෙන්න...😊",
+     "required" :true
     },
    "ANTILINK_VALUES": {
-    "description": "Put words for antilink",
+    "description": "ලින්ක් දාන අය remove කරන්න ඕන ලින්ක් එකේ sni එක මෙතනට දාන්න...😊",
      "value": "chat.whatsapp.com",
      "required" :false
     },
      "ANTILINK_ACTION": {
-    "description": "Put action for antilink",
+    "description": "ලින්ක් දාන අයට වෙන්න ඕන දේ  මෙතනට දාන්න...😊",
      "value": "remove",
      "required" :false
     },
-  "LEVEL_UP_MESSAGE": {
-    "description": "Fill the value true if you want bot send Level up message in chat.",
-     "required" :false,
-     "value": "true"
-    },
+
       "READ_MESSAGE": {
-    "description": "Fill the value true if you want bot to read all messages.",
+    "description": "බොට් මැසේජ් සීන් කරන්න ඕනෙනම් මෙතනට true දෙන්න. නැත්නම් false දෙන්න...😊",
      "required" :false,
      "value": "true"
     },
    "DISABLE_PM": {
-    "description": "Disable bot in pm",
+    "description": "බොට් inbox වැඩ කරන්න ඕනෙනම් true දෙන්න. නැත්නම් false දෙන්න...😊 ",
      "required" :false
     },
       "PREFIX": {
-  "description": "Enter your desired prefix for bot.",
+  "description": "බොට්ගේ prefix එක මෙතනට දෙන්න...😊",
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94758179948"
+    "description": "owner ගේ නම්බර් එක මෙතන්ට දෙන්න...😊",    
+      "value": "94758179948"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
+    "description": "QR කේතය ස්කෑන් කරාට පසුව ආපු code එක මෙතනට දෙන්න...😊 "
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",

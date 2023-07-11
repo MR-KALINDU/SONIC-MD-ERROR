@@ -2,8 +2,8 @@
 
   "name": "SONIC-MD (1.0.0)",
   "description": "SONIC-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
+  "logo": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "sonic-md"],
   "success_url": "/",
   "stack": "container",
 

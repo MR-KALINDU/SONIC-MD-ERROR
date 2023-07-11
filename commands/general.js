@@ -128,7 +128,7 @@ CREATED BY KALINDU...`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "SONIC-MD",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,

@@ -128,8 +128,8 @@ CREATED BY KALINDU...`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "SONIC-MD",
-                    body: "Easy to Use",
+                    title: "SONIC-MD-REPO",
+                    body: "BY KALINDU",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',

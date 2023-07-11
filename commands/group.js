@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: SONIC-MD-SUPPORT*\n*Group Link:*https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5`,
+            caption: `*Group Name: SONIC-MD-SUPPORT*\n*Group Link*\n\n_https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5_`,
         });
 
     }

@@ -246,13 +246,27 @@ cmd({
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_This is  ${tlang().title}._
-${alivemessage}
 
 *Version:-* _0.0.7_
 *Uptime:-* _${runtime(process.uptime())}_
 *Owner:-* _${Config.ownername}_
 *Branch:-* _${Config.BRANCH}_
+
+▬▬▬▬▬▬▬▬▬▬▬▬
+
+       💚‿ʜᴇʟʟᴏᴡ‿❤️
+ 
+► ɪ'ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ...🦸‍♂️
+
+► ᴍʏ ɴᴀᴍᴇ ɪꜱ ꜱᴏɴɪᴄ-ᴍᴅ ᴡᴀ ʙᴏᴛ...🤖
+
+► ᴄʀᴀᴇᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ...💗
+
+► ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ...💃
+
+► ᴛʏᴘᴇ .menu ᴛᴏ ɢᴇᴛ ᴍʏ ꜰᴜʟʟ ᴄᴏᴍᴍᴀᴍᴅ ʟɪꜱᴛ...🦚 
+
+▬▬▬▬▬▬▬▬▬▬▬▬
 
 _Type ${prefix}menu for my command list._
 

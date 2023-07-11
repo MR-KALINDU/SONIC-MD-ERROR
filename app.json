@@ -1,106 +1,101 @@
 {
-  "name": "SONIC-MD",
-  "description": "A WHATSAPP MD BOT CREATED BY KALINDU...",
-  "logo": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"],
+
+  "name": "SONIC-MD (1.0.0)",
+  "description": "SONIC-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "prabath-md"],
   "success_url": "/",
   "stack": "container",
-"env": {
+
+  "env": {
   "OWNER_NAME": {
-  "description": "බොට්ගේ owner ගේ නම මෙතනට දාන්න...😊",
+  "description": "Enter your name",
       "value": "KALINDU"
   },
-  "ALIVE_MESSAGE": {
-    "description": "බොට්ගේ alive මැසේජ් එක මෙතනට දාන්න...😊",
+   
+  "ALIVE_IMG": {
+    "description": "Put a url of an image that should come when you hit the .alive command",
      "required" :false
     },
-    "AUTO_STATUS_SAVER": {
-      "description": "Status ඔටෝ ඔයාගේ gallery එකට save වෙන්න ඕනෙ true දෙන්න. නැත්නම් false දෙන්න...😊",
-       "required" :false
-      },
-    "HEROKU_API_KEY": {
-    "description": "Heroku api key එක මෙතනට දෙන්න...😊",
-     "required" :false
+   "ALIVE_MSJ": {
+    "description": "enter alive message",
+     "value": "i am alive now 🙋‍♂️"
     },
   "HEROKU_APP_NAME": {
-    "description": "ඔයා දුන්න heroku ඇප් name එක මෙතනට දෙන්න...😊",
-     "required" :false
-    },
-   "THUMB_IMAGE": {
-    "description": "බොට්ගේ alive ලෝගෝ එකේ ලින්ක් එක මෙතනට දෙන්න...😊 .",
-     "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
-    },
-    "ANTI_BAD_WORD": {
-    "description": "කුණුහරුප කියන අය අයින් කරන්න true දෙන්න. නැත්නම් false දෙන්න...😊",
-     "required" :true
-    },
+    "description": "put your heroku_app_name",
+    "required" :false
+  },   
+  "HEROKU_API_KEY": {
+    "description": "put your heroku_api_key",
+    "required" :false
+  },  
+    "ALWAYS_ONLINE": {
+    "description": "enter true or false",
+    "value": "true",
+    "required" :false
+  },  
+      "SUDO": {
+  "description": "In addition to the bot number, enter another number here to control the bot",
+      "value": "94758179948"
+  },
    "ANTILINK_VALUES": {
-    "description": "ලින්ක් දාන අය remove කරන්න ඕන ලින්ක් එකේ sni එක මෙතනට දාන්න...😊",
+    "description": "When antilink is turned on, when this link is added, the user will be removed",
      "value": "chat.whatsapp.com",
      "required" :false
     },
-     "ANTILINK_ACTION": {
-    "description": "ලින්ක් දාන අයට වෙන්න ඕන දේ  මෙතනට දාන්න...😊",
-     "value": "remove",
-     "required" :false
-    },
-
       "READ_MESSAGE": {
-    "description": "බොට් මැසේජ් සීන් කරන්න ඕනෙනම් මෙතනට true දෙන්න. නැත්නම් false දෙන්න...😊",
+    "description": "If you want to read the bot message, give true, otherwise give false.",
      "required" :false,
      "value": "true"
     },
    "DISABLE_PM": {
-    "description": "බොට් inbox වැඩ කරන්න ඕනෙනම් true දෙන්න. නැත්නම් false දෙන්න...😊 ",
+    "description": "If you want the bot inbox to work, give false, if you don't want it to work, give true.",
      "required" :false
     },
       "PREFIX": {
-  "description": "බොට්ගේ prefix එක මෙතනට දෙන්න...😊",
+  "description": "put your prefix  ex:- , . ? ) @ # ",
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "owner ගේ නම්බර් එක මෙතන්ට දෙන්න...😊",    
-      "value": "94758179948"
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+       "value": "94758179948"
   },
    "SESSION_ID": {
-    "description": "QR කේතය ස්කෑන් කරාට පසුව ආපු code එක මෙතනට දෙන්න...😊 "
+    "description": "Scan the QR and enter the code "
   },
     "OPENAI_API_KEY": {
-    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-       "value": "Replace Me(optional)",
+    "description": "put your open_ai_api_key from https://platform.openai.com/account/api-keys",
+      "required" :false
+  },
+  "AUTO_READ_STATUS": {
+    "description": "If you want to auto read whatsapp status from the bot, give true or else give false",
+       "value": "false",
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Required)"
+    "description": "Put Your Mongodb_url from https://railway.app/new"
   },
-    "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",
-     "value": "MrKalindu"
+    "ANTI_BAD_WORD": {
+    "description": "Put bad_word here Use a comma to separate two words when putting bad_word",
+     "value": "fuck,fucking,huththo,huththa,pako,paka,huth"
   },
-    "WORKTYPE": {
-  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+    "WORK_TYPE": {
+  "description": "If you want to use the bot only for yourself, set it to private or set it to public",
          "value": "public"
-  },
-      "AUTO_REACTION": {
-    "description": "Reacts emoji to all commands.",
-     "value": "true",
-     "required": false 
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "KALINDU;SONIC-MD",
-     "required": false 
-  },
-  "heroku": {
-    "description": "Weather it is on heroku or not",
-     "value": "true",
+     "value": "SONIC-MD 🎊;KALINDU",
      "required": false 
   }
+  
 },
 "formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	}
+  "worker": {
+    "quantity": 1,
+    "size": "basic"
+  }
+}
+
+
 }

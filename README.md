@@ -13,7 +13,7 @@
 ---------
 
 
-***Also Deploy on [Replit]( https://repl.it/github/KALINDU-LK/SONIC-MD-)***
+***Also Deploy on [Replit]( https://repl.it/github/KALINDU-LK/SONIC-MD)***
 
 If ***RUN*** Doesn't work, paste these commands in repl shell
 

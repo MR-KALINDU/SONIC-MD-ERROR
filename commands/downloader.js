@@ -129,7 +129,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` 💖 ᴛɪᴛʟᴇ : ${titleYt}\n\n 💃 ꜰɪʟᴇ ꜱɪᴢᴇ : ${fileSizeInMegabytes} MB\n\n 💛 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ꜱᴏɴɪᴄ-ᴍᴅ\n\n 🧚‍♂️ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -146,7 +146,7 @@ cmd({
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
                 } else {
-                    citel.reply(`❌ File size bigger than 100mb.`);
+                    citel.reply(`❌ ꜰɪʟᴇ ꜱɪᴢᴇ ʙɪɢɢᴇʀ ᴛʜᴀɴ 100ᴍʙ.`);
                 }
                 return fs.unlinkSync(`./${randomName}`);      
 
@@ -172,15 +172,15 @@ cmd({
                 },
                 caption: `
 ╭───────────────◆
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
+│🦸‍♂️ ${tlang().title} 
+│  *ꜱᴏɴɪᴄ-ʏᴏᴜᴛᴜʙᴇ-ᴘʟᴀʏᴇʀ* 🦚
+│🦸‍♂️ *ᴛɪᴛʟᴇ:* ${anu.title}
+│🦸‍♂️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${anu.timestamp}
+│🦸‍♂️ *ᴠɪᴇᴡᴇʀꜱ:* ${anu.views}
+│🦸‍♂️ *ᴜᴘʟᴏᴀᴅᴇᴅ:* ${anu.ago}
+│🦸‍♂️ *ᴀᴜᴛʜᴏʀ:* ${anu.author.name}
 ╰────────────────◆
-⦿ *Url* : ${anu.url}
+⦿ *ᴜʀʟ* : ${anu.url}
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -301,7 +301,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*Downloadig:* '+titleYt)
+            citel.reply('*🦚 ᴅᴏᴡɴʟᴏᴅɪɴɢ:* '+titleYt)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
@@ -388,7 +388,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: `💖 ᴛɪᴛʟᴇ : ${titleYt}\n\n 💃 ꜰɪʟᴇ ꜱɪᴢᴇ : ${fileSizeInMegabytes} MB\n\n 💛 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ꜱᴏɴɪᴄ-ᴍᴅ\n\n 🧚‍♂️ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {

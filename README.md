@@ -26,11 +26,11 @@ Copy the JSON down and paste in repl then fill the vars
 ```
 {
   "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "91xxxxxxxxxx",
-  "OWNER_NAME": "EREN JEAGER",
+  "OWNER_NUMBER": "947xxxxxxxx",
+  "OWNER_NAME": "KALINDU",
   "OPENAI_API_KEY": "null",
   "MONGODB_URI": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
-  "PACK_INFO": "Sam;Pandey",
+  "PACK_INFO": "SONIC;BY-KALINDU",
   "PREFIX": "."
    
 }

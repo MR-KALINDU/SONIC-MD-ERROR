@@ -12,6 +12,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KALINDU-LK/SONIC-MD)
 ---------
 
+## ```REPLIT DEPLOYMENT```
 
 ***Also Deploy on [Replit]( https://repl.it/github/KALINDU-LK/SONIC-MD)***
 
@@ -35,6 +36,7 @@ Copy the JSON down and paste in repl then fill the vars
    
 }
 ```
+## ```KOYEB DEPLOYMENT``` 
 
 ## Koyeb Deployment Method
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/KALINDU-LK/SONIC-MD&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=94758179948&env[MONGODB_URI]&&env[OWNER_NAME]=KALINDU&env[KOYEB_API]&env[PREFIX]=.&env[ALIVE_IMG]=https://i.ibb.co/2n3DC0b/Sonic.jpg&env[global_url]=instagram.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[WORKTYPE]=public&env[THEME]=SONIC-MD&env[PACK_INFO]=SONIC-MD;BY-KALINDU&name=SONIC-MD&env[KOYEB_NAME]=SONIC-MD&env[ANTILINK_VALUES]=chat.whatsapp.com&env[PORT]=8000)

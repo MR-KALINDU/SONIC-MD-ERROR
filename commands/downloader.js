@@ -111,7 +111,24 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*🧚‍♂️ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ:* '+titleYt)
+                citel.reply('┏━[🦸‍♂️  SONIC-MD-V1  🦸‍♂️]─❂
+
+┣━( 🎞️ YT DOWNLOADER 🎶 ) 
+
+┃⿻ 🎧 ᴀᴜᴅɪᴏ ᴛɪᴛʟᴇ : ${titleYt}
+
+┃⿻ ⏳ ᴅᴜʀᴀᴛɪᴏɴ : ${timestamp}
+
+┃⿻ 🗃️ ꜰɪʟᴇ ꜱɪᴢᴇ :  : ${fileSizeInMegabytes} 
+
+┃⿻ 👀 ️ᴠɪᴇᴡꜱ : ${views}
+
+┃⿻ ⏰ ᴜᴘʟᴏᴀᴅᴇᴅ ᴛɪᴍᴇ :  ${ago}
+
+┃⿻ 🖇️ ᴠɪᴅᴇᴏ ʟɪɴᴋ : ${url}
+
+
+┗━━━━━━━━━━━━━━◆')
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })

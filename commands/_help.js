@@ -69,8 +69,8 @@ Secktor.cmd({
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `╭────💃 *${tiny(category)}* ❏\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ❏\n` ;      
+                   str += `╭────💃 *${tiny(category)}* 💃\n` ;
+                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────💃 *${tiny(category)}* 💃\n` ;      
                         for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
                         str += `╰━━━━━━━━━━━━━──⊷\n`  ;
                         break ;
@@ -80,7 +80,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n*Made with ❤️ in Nodejs* `
+                str+= `🧚‍♂️┃ꜱᴏɴɪᴄ ᴍᴅ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ\n\nᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ-ᴋᴀʟɪᴅᴜᴡᴀ-ᴏꜰᴄ ⃞⃝࿐☘️ `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str

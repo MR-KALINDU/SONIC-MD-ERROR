@@ -56,22 +56,20 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ 🔱 HI USER:- ${citel.pushName}
+│ │ 🧚 CREATOR:- KALINDU
+│ │ 🎰 MY PREFIX:- [ ${prefix} ]
+│ │ ⚡ OWNER:- ${Config.ownername}
+│ │ 🎲 UPTIME:- ${runtime(process.uptime())}
+│ │ ☠️ MEMORY:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ 💚 NOW TIME:- ${  }
+│ │ 📅 DATE:- ${date}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `╭────❏ *${tiny(category)}* ❏\n` ;
+                   str += `╭────💃 *${tiny(category)}* ❏\n` ;
                    if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ❏\n` ;      
                         for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
                         str += `╰━━━━━━━━━━━━━──⊷\n`  ;

@@ -62,8 +62,6 @@ Secktor.cmd({
 │ │ ⚡ OWNER:- ${Config.ownername}
 │ │ 🎲 UPTIME:- ${runtime(process.uptime())}
 │ │ ☠️ MEMORY:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ 💚 NOW TIME:- ${  }
-│ │ 📅 DATE:- ${date}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'

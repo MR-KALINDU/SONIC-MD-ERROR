@@ -53,55 +53,39 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `*ʜᴇʟʟᴏᴡ* 🧚‍♂️ ${citel.pushName}
-
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ꜱᴏɴɪᴄ-ᴍᴅ ꜰᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ*
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ*
-
-╭──❮ 𝗗𝗢𝗪𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
-│
-│📖 COMMAND: .song
-│ℹ️ Download song from yt
-│ 
-│ 
-│📖 COMMAND: .video
-│ℹ️ Download video from yt
-│
-╰────────────⦁ 
-
-╭──❮ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
-│
-│📖 COMMAND: .yts
-│ℹ️ Serch videos from yt
-╰────────────⦁  
-
-╭──❮‍ 𝗣𝗥𝗜𝗠𝗔𝗥𝗬 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
-│
-│📖 COMMAND: .alive
-│ℹ️ Check online or not
-│  
-│📖 COMMAND: .ping
-│ℹ️ Check bot speed
-│  
-│📖 COMMAND: .menu
-│ℹ️ Sonic main menu
-╰────────────⦁
+                let str = `╭────《 ` ՏϴΝᏆᏟ-ᎷᎠ ` 》─────⊷\n` 
+                 str += 
+                     '```' + `│ ╭──────────────◆ 
+ │ │🔱 HI USER :- ${citel.pushName} 
 
 
-╭──❮ 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
-│
-│📖 COMMAND: .group close
-│ℹ️ Mute group
-│
-│📖 COMMAND: .group open
-│ℹ️ Unmute group
-│
-│📖 COMMAND: .tagall
-│ℹ️ tag all members
-╰────────────⦁`
+ │ │⚡ MY PREFIX:- [ ${prefix} ] 
+
+ │ │🎲 OWNER:- ${Config.ownername} 
+
+ │ │🧚 CREATOR:- KALINDU
+
+ │ │🎰 UPTIME:- ${runtime(process.uptime())} 
+ │ │☠️ MEMORY:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())} 
+ │ │🎉 NOW TIME:- ${time} 
+ │ │📅 DATE :- ${date} 
+ │ ╰──────────────◆ 
+ ╰───────────────⊷\n 
+ ` + '```' 
+                 for (const category in cmds)  
+                 { 
+                    str += `╭────💃 *${tiny(category)}* 💃\n` ; 
+                    if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────💃 *${tiny(category)}* 💃\n` ;       
+                         for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; } 
+                         str += `╰━━━━━━━━━━━━━──⊷\n`  ; 
+                         break ; 
+                    } 
+                    else { for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; } 
+                          str += `╰━━━━━━━━━━━━━━──⊷\n`  ;  
+                    } 
+  
+                 } 
+                 str+= `🧚‍♂️┃ꜱᴏɴɪᴄ ᴍᴅ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ\n\nᴄʀᴇᴀᴛᴇᴅ ʙʏ  ᴍʀ-ᴋᴀʟɪᴅᴜᴡᴀ-ᴏꜰᴄ ⃞⃝࿐☘️`
             return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str })
         }
     )

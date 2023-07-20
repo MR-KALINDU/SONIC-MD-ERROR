@@ -489,7 +489,7 @@ cmd({
     }
 )
      //---------------------------------------------------------------------------
-/*cmd({
+cmd({
             pattern: "fb",
             desc: "Downloads fb videos  .",
             category: "downloader",
@@ -522,16 +522,16 @@ let vurl=res.url[0].url;
                         
                     }
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
+          } 
 
+   })
 
-}
-)*/
 
 //---------------------------------------------------------------------------
-
-async function tiktokdl (url) {
-    const gettoken = await axios.get("https://tikdown.org/id");
-    const $ = cheerio.load(gettoken.data);
+cmd({ 
+           async function tiktokdl (url) {
+          const gettoken = await axios.get("https://tikdown.org/id");
+          const $ = cheerio.load(gettoken.data);
     const token = $("#download-form > input[type=hidden]:nth-child(2)").attr("value");
     const param = {
         url: url,
@@ -580,7 +580,7 @@ cmd({
  else return await citel.reply("Error While Downloading Your Video") 
 })
 //---------------------------------------------------------------------------
-/*
+/
 cmd({
             pattern: "tiktok",
 	          alias :  ['tt','ttdl'],

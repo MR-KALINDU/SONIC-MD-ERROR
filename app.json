@@ -10,25 +10,13 @@
   "description": "බොට්ගේ owner ගේ නම මෙතනට දාන්න...😊",
       "value": "KALINDU"
   },
-  "ALIVE_MESSAGE": {
-    "description": "බොට්ගේ alive මැසේජ් එක මෙතනට දාන්න...😊",
-     "required" :false
-    },
-    "AUTO_STATUS_SAVER": {
-      "description": "Status ඔටෝ ඔයාගේ gallery එකට save වෙන්න ඕනෙ true දෙන්න. නැත්නම් false දෙන්න...😊",
-       "required" :false
-      },
-    "HEROKU_API_KEY": {
+  "HEROKU_API_KEY": {
     "description": "Heroku api key එක මෙතනට දෙන්න...😊",
      "required" :false
     },
   "HEROKU_APP_NAME": {
     "description": "ඔයා දුන්න heroku ඇප් name එක මෙතනට දෙන්න...😊",
      "required" :false
-    },
-   "THUMB_IMAGE": {
-    "description": "බොට්ගේ alive ලෝගෝ එකේ ලින්ක් එක මෙතනට දෙන්න...😊 .",
-     "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "කුණුහරුප කියන අය අයින් කරන්න true දෙන්න. නැත්නම් false දෙන්න...😊",
@@ -50,10 +38,6 @@
      "required" :false,
      "value": "true"
     },
-   "DISABLE_PM": {
-    "description": "බොට් inbox වැඩ කරන්න ඕනෙනම් true දෙන්න. නැත්නම් false දෙන්න...😊 ",
-     "required" :false
-    },
       "PREFIX": {
   "description": "බොට්ගේ prefix එක මෙතනට දෙන්න...😊",
       "value": "."
@@ -72,6 +56,7 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required)"
+	   "value": "mongodb://ur11xhsuoswvxkks4ehw:CjmPoQfTWWAsG3KYwthV@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/baa1weu4wlwtcbn?replicaSet=rs0"
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",

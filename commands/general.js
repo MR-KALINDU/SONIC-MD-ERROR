@@ -19,7 +19,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: '<Hii,SONIC-MD>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -116,11 +116,18 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
         let cap = `Hey ${citel.pushName}\n
-BOT GITHUB LINK ; https://github.com/KALINDU-LK/SONIC-MD
+╔════◇
+║ _ꜱᴏɴɪᴄ-ᴍᴅ-ɢɪᴛʜᴜʙ-ʟɪɴᴋ_ 💃
+║ _ᴄʀᴀᴇᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ 🧚‍♂️._
+╚═════════════════◉
 
-BOT CREATER NUMBER ; 0758179948
-
-CREATED BY KALINDU...`
+╔═════◇
+║    
+║     *ᴏᴡɴᴇʀ:* _wa.me//+94758179948_
+║
+║     *ʀᴇᴘᴏ ʟɪɴᴋ:*  github.com/KALINDU-LK/SONIC-MD
+║
+╚═════════════════◉`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,

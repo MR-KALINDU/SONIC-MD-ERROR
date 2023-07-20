@@ -56,9 +56,9 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required)"
-	   "value": "mongodb://ur11xhsuoswvxkks4ehw:CjmPoQfTWWAsG3KYwthV@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/baa1weu4wlwtcbn?replicaSet=rs0"
+      "value": "mongodb://ur11xhsuoswvxkks4ehw:CjmPoQfTWWAsG3KYwthV@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/baa1weu4wlwtcbn?replicaSet=rs0"
   },
-    "THEME": {
+   "THEME": {
     "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",
      "value": "SONIC-MD"
   },

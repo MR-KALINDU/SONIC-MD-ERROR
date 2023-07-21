@@ -36,7 +36,7 @@ cmd({
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is Secktor>',
+            use: '<Hii,this is SONIC-MD>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me Sentence to change into audio.')
@@ -111,20 +111,28 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('image: { 
-                     url: anu.thumbnail, 
-                 }, 
-                 caption: ` 
- ╭───────────────◆ 
- │🦸‍♂️ ${tlang().title}  
- │  *ꜱᴏɴɪᴄ-ʏᴏᴜᴛᴜʙᴇ-ᴘʟᴀʏᴇʀ* 🦚 
- │🦸‍♂️ *ᴛɪᴛʟᴇ:* ${anu.title} 
- │🦸‍♂️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${anu.timestamp} 
- │🦸‍♂️ *ᴠɪᴇᴡᴇʀꜱ:* ${anu.views} 
- │🦸‍♂️ *ᴜᴘʟᴏᴀᴅᴇᴅ:* ${anu.ago} 
- │🦸‍♂️ *ᴀᴜᴛʜᴏʀ:* ${anu.author.name} 
- ╰────────────────◆ 
- ⦿ *ᴜʀʟ* : ${anu.url}')
+                citel.reply('
+*┏━[ _🧚‍♂️SONIC-MD-V1 🧚‍♂️_ ]─❂*
+
+*┣━( _🦚 VIDEO DOWNLOADER 🦚_ )* 
+
+*┃►* *💃 ᴠɪᴅᴇᴏ ᴛɪᴛʟᴇ :* ${anu.title}
+
+*┃►* *💃 ᴅᴜʀᴀᴛɪᴏɴ :* ${anu.timestamp}
+
+*┃►* 💃 *ꜰɪʟᴇ ꜱɪᴢᴇ :* ${fileSizeInMegabytes} MB
+
+*┃►* *💃 ️ᴠɪᴇᴡꜱ :* ${anu.views}
+
+*┃►* *💃 ᴜᴘʟᴏᴀᴅᴇᴅ ᴛɪᴍᴇ :* ${anu.ago}
+
+*┃►* *💃 ᴠɪᴅᴇᴏ ʟɪɴᴋ :* ${anu.url}
+
+*┃►* *💃 ᴀᴜᴛʜᴏʀ :* ${anu.author.name}
+
+
+
+*┗━━━━━━━━━━━━━━◆*')
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })

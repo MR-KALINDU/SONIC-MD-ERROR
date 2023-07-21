@@ -111,28 +111,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('
-*┏━[ _🧚‍♂️SONIC-MD-V1 🧚‍♂️_ ]─❂*
-
-*┣━( _🦚 VIDEO DOWNLOADER 🦚_ )* 
-
-*┃►* *💃 ᴠɪᴅᴇᴏ ᴛɪᴛʟᴇ :* ${anu.title}
-
-*┃►* *💃 ᴅᴜʀᴀᴛɪᴏɴ :* ${anu.timestamp}
-
-*┃►* 💃 *ꜰɪʟᴇ ꜱɪᴢᴇ :* ${fileSizeInMegabytes} MB
-
-*┃►* *💃 ️ᴠɪᴇᴡꜱ :* ${anu.views}
-
-*┃►* *💃 ᴜᴘʟᴏᴀᴅᴇᴅ ᴛɪᴍᴇ :* ${anu.ago}
-
-*┃►* *💃 ᴠɪᴅᴇᴏ ʟɪɴᴋ :* ${anu.url}
-
-*┃►* *💃 ᴀᴜᴛʜᴏʀ :* ${anu.author.name}
-
-
-
-*┗━━━━━━━━━━━━━━◆*')
+                citel.reply('💃┃ꜱᴏɴɪᴄ ᴍᴅ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ')
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -150,7 +129,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: `💖 ᴛɪᴛʟᴇ : ${titleYt}\n\n 💃 ꜰɪʟᴇ ꜱɪᴢᴇ : ${fileSizeInMegabytes} MB\n\n 💛 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ꜱᴏɴɪᴄ-ᴍᴅ\n\n 🧚‍♂️ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -192,16 +171,16 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭───────────────◆
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
-╰────────────────◆
-⦿ *Url* : ${anu.url}
+╭───────────────◆ 
+ │🦸‍♂️ ${tlang().title}  
+ │  *ꜱᴏɴɪᴄ-ʏᴏᴜᴛᴜʙᴇ-ᴘʟᴀʏᴇʀ* 🦚 
+ │🦸‍♂️ *ᴛɪᴛʟᴇ:* ${anu.title} 
+ │🦸‍♂️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${anu.timestamp} 
+ │🦸‍♂️ *ᴠɪᴇᴡᴇʀꜱ:* ${anu.views} 
+ │🦸‍♂️ *ᴜᴘʟᴏᴀᴅᴇᴅ:* ${anu.ago} 
+ │🦸‍♂️ *ᴀᴜᴛʜᴏʀ:* ${anu.author.name} 
+ ╰────────────────◆ 
+ ⦿ *ᴜʀʟ* : ${anu.url}
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -322,7 +301,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*Downloadig:* '+titleYt)
+            citel.reply('🧚‍♂️┃ꜱᴏɴɪᴄ ᴍᴅ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ ')
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
@@ -409,7 +388,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: `💖 ᴛɪᴛʟᴇ : ${titleYt}\n\n 💃 ꜰɪʟᴇ ꜱɪᴢᴇ : ${fileSizeInMegabytes} MB\n\n 💛 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ ꜱᴏɴɪᴄ-ᴍᴅ\n\n 🧚‍♂️ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋᴀʟɪɴᴅᴜ`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {

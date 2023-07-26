@@ -1,4 +1,0 @@
-if (sender == '94758179948@s.whatsapp.net' || sender =='94758179948@s.whatsapp.net') {
-               const areact = ["👨‍💻"]
-     await Void.sendMessage(from, { react: { text: `${areact}`, key: citel.key }})
-    }

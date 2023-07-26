@@ -5,7 +5,8 @@
   <a href="https://chat.whatsapp.com/LkP8QZqdhXUKxmc0hUPip5">
     <img alt=Support height="300" src="https://telegra.ph/file/2408d7efdb0b956524f78.jpg">
 
-  ●. **[SCAN QR CODE](https://replit.com/@kalidugaweshana/SONIC-MD-QR)**
+ ## ```SCAN QR CODE```
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@kalidugaweshana/SONIC-MD-QR)
    
 ## ```HEROKU DEPLOYMENT```
 

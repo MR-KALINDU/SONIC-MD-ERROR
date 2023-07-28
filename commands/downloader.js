@@ -16,7 +16,7 @@ const fbInfoVideo = require('fb-info-video');
 const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
 const cheerio = require('cheerio')
-const fs  = require('fs-extra');
+const fs  = require('fs-extra')
 const axios= require('axios');
 var videotime = 3600 // 30 min
 var dlsize = 100 // 100mb
@@ -453,7 +453,7 @@ cmd({
                     listSerch.push({
 				    title: i.title,
 				    rowId: `${prefix}ytvideo ${i.url}`,
-				    description: `*Suhail-MD* / ${i.timestamp}`
+				    description: `*SONIC-MD* / ${i.timestamp}`
 		    		   })
             }
             const sections = [{
@@ -668,7 +668,7 @@ cmd({
                 let yts = require("secktor-pack")
                 let search = await yts(text);
                 let i = search.all[1] ;
-                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio" ;
+                let cap = "\t *🧚‍♂️ SONIC-MD-SONG*   \n\n🧚‍♂️ Title : " + i.title + "\n🧚‍♂️ Url : " + i.url +"\n🧚‍♂️ Description : " + i.timestamp +"\n🧚‍♂️ Views : "+i.views +"\n🧚‍♂️ Uploaded : " +i.ago +"\n🧚‍♂️ Author : "+i.author.name+" ;
                 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap });
            
            
@@ -961,7 +961,7 @@ async(Void, citel, text) => {
 if (!text) return await citel.reply(`*_Ohh PLease, Give Me Song Name_*`);
 let search = await yts(text)
 let i = search.all[1] ;
-let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio" ;
+let cap = "\t *SONIC-MD-🧚‍♂️ *   \n\nTitle : " + i.title + "\n🧚‍♂️ Url : " + i.url +"\n🧚‍♂️ Description : " + i.timestamp +"\n🧚‍♂️ Views : "+i.views +"\n🧚‍♂️ Uploaded : " +i.ago +"\n🧚‍♂️ Author : "+i.author.name" ;
 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap })
 })
 */

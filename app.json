@@ -7,58 +7,58 @@
   "stack": "container",
 "env": {
   "OWNER_NAME": {
-  "description": "බොට්ගේ owner ගේ නම මෙතනට දාන්න...😊",
+  "description": "TYPE YOUR BOT OWNER NAME...😊",
       "value": "KALINDU"
       },
     "HEROKU_API_KEY": {
-    "description": "Heroku api key එක මෙතනට දෙන්න...😊",
+    "description": "TYPE HEROKU API KEY...😊",
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "ඔයා දුන්න heroku ඇප් name එක මෙතනට දෙන්න...😊",
+    "description": "TYPE HEROKU APP NAME...😊",
      "required" :false
     },
    "THUMB_IMAGE": {
-    "description": "බොට්ගේ alive ලෝගෝ එකේ ලින්ක් එක මෙතනට දෙන්න...😊 .",
+    "description": "TYPE BOT ALIVE LOGO LINK...😊 .",
      "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
     },
    "ANTILINK_VALUES": {
-    "description": "ලින්ක් දාන අය remove කරන්න ඕන ලින්ක් එකේ sni එක මෙතනට දාන්න...😊",
+    "description": "TYPE AUTO REMOVE LINK SENDERS SNI...😊",
      "value": "chat.whatsapp.com",
      "required" :false
     },
      "ANTILINK_ACTION": {
-    "description": "ලින්ක් දාන අයට වෙන්න ඕන දේ  මෙතනට දාන්න...😊",
+    "description": "TYPE LINK SENDERS REMOVE...😊",
      "value": "remove",
      "required" :false
     },
 
       "READ_MESSAGE": {
-    "description": "බොට් මැසේජ් සීන් කරන්න ඕනෙනම් මෙතනට true දෙන්න. නැත්නම් false දෙන්න...😊",
+    "description": "BOT MSG SEEN TRUE OR FALSE...😊",
      "required" :false,
      "value": "true"
     },
       "PREFIX": {
-  "description": "බොට්ගේ prefix එක මෙතනට දෙන්න...😊",
+  "description": "GIVE BOT PREFIX...😊",
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "owner ගේ නම්බර් එක මෙතන්ට දෙන්න...😊",    
+    "description": "GIVE OWNER NUMBER...😊",    
       "value": "94758179948"
   },
    "SESSION_ID": {
-    "description": "QR කේතය ස්කෑන් කරාට පසුව ආපු code එක මෙතනට දෙන්න...😊 "
+    "description": "GIVE SESSION_ID AFTER QR SCAN...😊 "
   },
     "OPENAI_API_KEY": {
-    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
+    "description": "DON'T CHANGE THIS ",
        "value": "Replace Me(optional)",
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "A secret String for Mongodb Connection.(Required)"
+    "description": "GIVE MONGODB URL(Required)"
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",
+    "description": "DON'T CHANGE THIS",
      "value": "SONIC-MD"
   },
     "WORKTYPE": {

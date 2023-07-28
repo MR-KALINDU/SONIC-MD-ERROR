@@ -9,14 +9,6 @@
   "OWNER_NAME": {
   "description": "බොට්ගේ owner ගේ නම මෙතනට දාන්න...😊",
       "value": "KALINDU"
-  },
-  "ALIVE_MESSAGE": {
-    "description": "බොට්ගේ alive මැසේජ් එක මෙතනට දාන්න...😊",
-     "required" :false
-    },
-    "AUTO_STATUS_SAVER": {
-      "description": "Status ඔටෝ ඔයාගේ gallery එකට save වෙන්න ඕනෙ true දෙන්න. නැත්නම් false දෙන්න...😊",
-       "required" :false
       },
     "HEROKU_API_KEY": {
     "description": "Heroku api key එක මෙතනට දෙන්න...😊",
@@ -29,10 +21,6 @@
    "THUMB_IMAGE": {
     "description": "බොට්ගේ alive ලෝගෝ එකේ ලින්ක් එක මෙතනට දෙන්න...😊 .",
      "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
-    },
-    "ANTI_BAD_WORD": {
-    "description": "කුණුහරුප කියන අය අයින් කරන්න true දෙන්න. නැත්නම් false දෙන්න...😊",
-     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "ලින්ක් දාන අය remove කරන්න ඕන ලින්ක් එකේ sni එක මෙතනට දාන්න...😊",
@@ -49,10 +37,6 @@
     "description": "බොට් මැසේජ් සීන් කරන්න ඕනෙනම් මෙතනට true දෙන්න. නැත්නම් false දෙන්න...😊",
      "required" :false,
      "value": "true"
-    },
-   "DISABLE_PM": {
-    "description": "බොට් inbox වැඩ කරන්න ඕනෙනම් true දෙන්න. නැත්නම් false දෙන්න...😊 ",
-     "required" :false
     },
       "PREFIX": {
   "description": "බොට්ගේ prefix එක මෙතනට දෙන්න...😊",
@@ -75,7 +59,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes For SONIC-MD and many more..",
-     "value": "MrKalindu"
+     "value": "SONIC-MD"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",

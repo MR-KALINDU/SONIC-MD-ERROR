@@ -42,6 +42,10 @@
   "description": "GIVE BOT PREFIX...😊",
       "value": "."
   },
+      "OPENAI_API_KEY": {
+    "description": "put your open_ai_api_key from https://platform.openai.com/account/api-keys",
+      "value" : "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"
+  },
   "OWNER_NUMBER": {
     "description": "GIVE OWNER NUMBER...😊",    
       "value": "94758179948"

@@ -42,10 +42,6 @@
   "description": "GIVE BOT PREFIX...😊",
       "value": "."
   },
-      "OPENAI_API_KEY": {
-    "description": "put your open_ai_api_key from https://platform.openai.com/account/api-keys",
-      "value" : "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"
-  },
   "OWNER_NUMBER": {
     "description": "GIVE OWNER NUMBER...😊",    
       "value": "94758179948"
@@ -55,7 +51,7 @@
   },
     "OPENAI_API_KEY": {
     "description": "DON'T CHANGE THIS ",
-       "value": "Replace Me(optional)",
+       "value": "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",
        "required" :false
   },
   "MONGODB_URI": {

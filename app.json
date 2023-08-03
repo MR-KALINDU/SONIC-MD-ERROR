@@ -70,18 +70,10 @@
      "value": "true",
      "required": false 
   },
-	 "AUTO_STICKER": {
-    "description": "ACTIVATE BOT AUTO STICKER SENDER TYPE TRUE OR FALSE...😊 .",
-     "value": "false"
-   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
      "value": "KALINDU;SONIC-MD",
      "required": false 
-  },
-	 "AUTO_VOICE": {
-    "description": "ACTIVATE BOT AUTO VOICE SENDER TYPE TRUE OR FALSE...😊 .",
-     "value": "false"
    },
    "heroku": {
     "description": "Weather it is on heroku or not",

@@ -1,7 +1,7 @@
 {
                "name": "Sonic-Md",
                "version": "4.0",
-               "description": "Multi device whatsapp bot by Kalindu.",
+               "description": "Multi device whatsapp bot by SamPandey001.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name sonic-md",
                 "stop": "pm2 stop sonic-md"
                 },
-               "author": "Kalindu",
+               "author": "Ameesha",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -56,23 +56,32 @@
                        "util": "^0.12.4",           
                        "secktor-pack": "latest",
                        "ytdl-secktor": "latest",
-                       "googlebard": "latest",
                        "@blackamda/song_video_dl": "latest",
-                       "vihangayt-fbdl": "latest",
+                       "pastebin-js": "latest",
                        "aptoide-scraper": "latest",
                        "getscreenshot.js": "latest",
-                       "@blackamda/telegram-image-url": "latest",
-                       "fouadwa-scraper": "latest",
-                       "pastebin-js": "latest",
+                       "vihangayt-fbdl": "latest",
                        "mfiredlcore-vihangayt": "latest",
                        "chatgpt-scraper": "latest",
-                       "@sl-code-lords/youtube-dl": "latest",
-                       "@sl-code-lords/holidays": "latest",
+                       "@sl-code-lords/openai-chatgpt": "latest",
+                       "@sl-code-lords/text-pro-me": "latest",
+                       "@sl-code-lords/image-library": "^1.0.0",
                        "@sl-code-lords/esana-news": "latest",
                        "@sl-code-lords/wabetainfo": "latest",
                        "@sl-code-lords/si-subdl": "latest",
-                       "truecallerjs": "latest",
-                       "fb-info-video":"latest",
+                       "@sl-code-lords/openai-chatgpt": "latest",
+                       "hirunews-scraper": "latest",
+                       "sirasa-news": "latest",
+                       "tech-news-scraper": "latest",
+                       "ios-news": "latest",
+                       "nima-threads-dl-api": "latest",
+                       "@bochilteam/scraper-downloader": "latest",
+                       "@saipulanuar/tiktok-scraper-ts": "latest",
+                       "@xaviabot/fb-downloader": "latest",
+                       "api-dylux": "latest",
+                       "@xct007/frieren-scraper": "latest",
+                       "fouadwa-scraper": "latest",
+                       "fb-info-video": "latest",
                        "wa-sticker-formatter": "^4.3.2",
                        "wa_set_pkg":"1.0.1"
                       },
@@ -90,5 +99,5 @@
                  "bugs": {
                  "url": "https://github.com/KALINDU-LK/SONIC-MD/issues"
                   },
-                 "homepage": "https://github.com/KALINDU-LK/SONIC-MD#readme"
+                 "homepage": "https://github.comKALINDU-LK/SONIC-MD/#readme"
                   }

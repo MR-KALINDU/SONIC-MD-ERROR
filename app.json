@@ -18,9 +18,9 @@
     "description": "TYPE HEROKU APP NAME...😊",
      "required" :false
     },
-   "THUMB_IMAGE": {
-    "description": "TYPE BOT ALIVE LOGO LINK...😊 .",
-     "value": "https://telegra.ph/file/9b152f452d62d0f5a206a.jpg"
+   "DISABLE_PM": {
+    "description": "INBOX BLOCK SYSTEM ...😊 .",
+     "value": "false"
     },
    "ANTILINK_VALUES": {
     "description": "TYPE AUTO REMOVE LINK SENDERS SNI...😊",
